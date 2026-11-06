@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Gautam Kumar Jha</title>
+<title>Gautam Kumar Jha | Stock Market Education Community</title>
 <meta name="description" content="A free Telegram community for learning how stock markets work. Educational content only, not investment advice.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📘%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -26,6 +26,8 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:'Poppins',syste
 .wrap{max-width:640px;margin:0 auto;padding:32px 20px 24px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 24px}
 .avatar{width:72px;height:72px;border-radius:50%;background:var(--accent);color:var(--accent-text);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:26px;margin:0 auto 14px}
+.avatar{position:relative;overflow:hidden}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 h1{font-size:1.6rem;line-height:1.25;margin:0 0 6px;text-align:center}
 .sub{text-align:center;color:var(--muted);margin:0 0 22px}
 ul.list{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:10px}
@@ -56,7 +58,7 @@ fbq('track', 'PageView');
 <body>
 <main class="wrap">
   <section class="card">
-    <div class="avatar" aria-hidden="true">GJ</div>
+    <div class="avatar"><span aria-hidden="true">GJ</span><img src="Profile.jpg" alt="Gautam Kumar Jha" width="72" height="72" onerror="this.remove()"></div>
     <h1>Gautam Kumar Jha</h1>
     <p class="sub">Free community to learn how the stock market works</p>
 
